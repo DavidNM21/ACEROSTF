@@ -7,15 +7,15 @@
 
 
 
-.imagenproducto{width: 180px;
+.imagenproducto{width: 100%;
   padding-bottom: 25px;
 }
 
 .Productos{display: inline-block;
-width: 12rem;
+width: 70%;
 color:#39383B;
 text-align: center;
-font-size: .65rem;
+font-size: 100%;
 margin:20PX;
 padding: 0}
 
@@ -36,7 +36,9 @@ color:#ffffff;
 font-size: 1.5rem;
 font-family: 'Verdana',sans-serif;
 text-align: center;
-font-weight:600;}
+font-weight:600;
+padding-top: 60px;
+padding-bottom: 60px;}
 
 .CATEGORIA{
 display:inline-block;
@@ -133,6 +135,8 @@ ul{font-size: 8;}
 Button.btn{background-color: #39383b;
 border-color: #ffde59;
 color:#ffde59;
+font-size: 67%;
+width: 100%;
 }
 
 Button.btn:hover{background-color: #39383b;
@@ -154,7 +158,7 @@ text-align: left;
 padding-left: .4rem;
 padding-top: 0;
 padding-bottom: 0;
-font-size: 0.7rem;
+font-size: 75%;
 border-color: grey;
 border-style: dotted;
 font-weight: 300;}
@@ -166,27 +170,28 @@ padding-left: .5rem;
 font-weight: 500;
 }
 
-P.kilos {font-size: 0.6rem;
+P.kilos {font-size: 1em;
 display: inline-block;
 color:orange;
 padding-top: 0;
 padding-bottom: 0;
 margin:0}
 
-P.kilos:hover{font-size: 0.7rem;}
-P.TEXTOMARCOSYCHAMBRANAS{font-size: .85rem;
+P.kilos:hover{font-size: 1.2em;}
+
+P.TEXTOMARCOSYCHAMBRANAS{font-size: 80%;
 MARGIN:0;}
 
 P.ferre{width: 160px}
 
-button.btnXbtn-primary5{font-size: .85rem;
+button.btnXbtn-primary5{font-size: 2rem;
   background-color: #39383b;
   border-color: #ffde59;
   color:#ffde59;
 border-width: thin;
 border-radius: 3%;}
 
-button.btnXbtn-primary5:hover{font-size: .85rem;
+button.btnXbtn-primary5:hover{font-size: 2rem;
   background-color: #39383b;
   border-color: white;
   color:white;
