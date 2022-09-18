@@ -38,7 +38,9 @@ font-family: 'Verdana',sans-serif;
 text-align: center;
 font-weight:600;
 padding-top: 60px;
-padding-bottom: 60px;}
+padding-bottom: 60px;
+padding-right: 10%;
+padding-left: 2%;}
 
 .CATEGORIA{
 display:inline-block;
@@ -61,7 +63,7 @@ margin-bottom: 150PX;}
 text-align: CENTER;}
 
 .LOGO-BOTTOM{WIDTH:50%;
-margin: auto;}
+margin-bottom: 50px}
 
 
 .bottom-images{width:20rem;
@@ -197,3 +199,39 @@ button.btnXbtn-primary5:hover{font-size: 2rem;
   color:white;
 border-width: thin;
 border-radius: 3%;}
+
+a.iconwhatsapp {
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+}
+
+
+.menu_der{
+    position: fixed;
+    right: 10%;
+    bottom: 50%;
+    width: 1px;
+    height: 1px;
+    background-color: #39383b;
+    color:white;
+    font-style: normal;
+    font-family: sans-serif;
+
+}
+
+
+#icon1{bottom: 74%;position: fixed;color: #39383B;right: 1%; font-size: 1.2rem;}
+#icon2{bottom: 70%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon3{bottom: 65%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon4{bottom: 60%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon5{bottom: 55%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon6{bottom: 50%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon7{bottom: 45%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon8{bottom: 40%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon9{bottom: 35%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon10{bottom: 30%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
+#icon11{bottom: 25%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
