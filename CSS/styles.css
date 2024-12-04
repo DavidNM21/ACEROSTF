@@ -222,8 +222,11 @@ a.iconwhatsapp {
     font-family: sans-serif;
 
 }
-
-#icon12{bottom: 0%;position: fixed;color: #FFFFFF;right: 0%; font-size: .4rem;z-index: 2147483649;}
+p {
+    margin-top: 0;
+    margin-bottom: -.1rem;
+}
+#icon12{bottom: 0%;position: fixed;color: #FFFFFF;right: 0%; font-size: 0.4rem; z-index: 2147483649;}
 
 #icon1{bottom: 74%;position: fixed;color: #39383B;right: 1%; font-size: 1.2rem;}
 #icon2{bottom: 70%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
