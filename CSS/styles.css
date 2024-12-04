@@ -202,11 +202,11 @@ border-radius: 3%;}
 
 a.iconwhatsapp {
     position: fixed;
-    right: 3%;
-    bottom: 20%;
+    right: 1.5%;
+    bottom: 15%;
     z-index: 1000;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
 }
 
 
