@@ -202,7 +202,7 @@ border-radius: 3%;}
 
 a.iconwhatsapp {
     position: fixed;
-    right: 2%;
+    right: 1%;
     bottom: 4%;
     z-index: 2147483648;
     width: 60px;
@@ -222,7 +222,7 @@ a.iconwhatsapp {
     font-family: sans-serif;
 }
 
-#icon12{bottom: 0%;position: fixed;color: #FFFFFF;right: 0%; font-size: 0.75rem; z-index: 2147483649;}
+#icon12{bottom: 0%;position: fixed;color: #FFFFFF;right: 1%; font-size: 0.75rem; z-index: 2147483649;font-family: sans-serif;}
 
 #icon1{bottom: 74%;position: fixed;color: #39383B;right: 1%; font-size: 1.2rem;}
 #icon2{bottom: 70%;position: fixed;color: #39383B;right: 1%;font-size: 1.2rem;}
