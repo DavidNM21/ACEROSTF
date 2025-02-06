@@ -7,6 +7,26 @@
   <link rel="stylesheet" type="text/css" href="CSS/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <!-- Place this code within the tag <head> SCRIPT PARA CHATWEB WHATICKET -->
+  <script>
+    window.WTT_API = {
+      config: {
+        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55SWQiOiI0YTU5ZTA2Ny1hNDVjLTQzYjItYjg4Mi0yZTIzYmY3YzhkOGYiLCJjb25uZWN0aW9uSWQiOiIzOTEwZTlkNS0xMzgzLTQwMjItOGNjOS03OTUzZTJkZTFjMTgiLCJpYXQiOjE3Mzg4ODQyMzJ9.Hr_zjRtRkR62YI9-zQgTo3M5I_tKWFQVrfBhXIr8yn4",
+        title: "¡Bienvenido al soporte!", // a title to be presented on the widget
+        subtitle: "¿Cómo podemos ayudar?", // (optional) a subtitle to be presented on the widget
+        position: "left", // (optional) values: left or right / default: left
+        initialMessages: ["Hola, ¿cómo podemos ayudarte?"], // (optional) values: an array of messages to be shown when the contact open the widget for the first time
+        toggleButtonEnabled: true, // (optional) enables a toggle button that opens/close the widget
+        toggleButtonBgColor: "#42a5f5", // (optional) the html background color of the toggle button
+        isAudioEnabled: false // enable the option to the widget user send audio messages
+      }
+      // You can contact our Support team for more advanced configurations.
+    };
+  </script>
+  <script async crossorigin="*" src="https://public.whaticket.com/widget/production/wtt-widget-default.js"></script>
+
+  
 </head>
 
 <body>
