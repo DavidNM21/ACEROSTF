@@ -38,47 +38,32 @@
   </script>
   <script async crossorigin="*" src="https://public.whaticket.com/widget/production/wtt-widget-default.js"></script>
 
-<script>
-  // Esperamos a que Whaticket cargue el botón flotante
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      const button = document.querySelector('div[style*="position: fixed"][style*="bottom"][style*="left"]') ||
-                     document.querySelector('[class*="wtt-"]') ||
-                     document.querySelector('[class*="whaticket"]') ||
-                     document.querySelector('.wtt-toggle-button');
-
-      if (button) {
-        button.style.position = 'relative';
-        button.style.display = 'flex';
-        button.style.alignItems = 'center';
-        button.style.gap = '12px';
-        button.style.paddingRight = '20px';   // espacio extra para el texto
-
-        // Creamos el texto "Cotiza y pide"
-        let text = document.createElement('span');
-        text.textContent = 'Cotiza y pide';
-        text.style.cssText = `
-          background: #25D366;
-          color: white;
-          padding: 8px 18px;
-          border-radius: 30px;
-          font-size: 15px;
-          font-weight: 700;
-          white-space: nowrap;
-          box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-          pointer-events: none;
-          font-family: system-ui, Arial, sans-serif;
-        `;
-        button.appendChild(text);
-      }
-    }, 1500); // 1.5 segundos para que Whaticket termine de cargar
-  });
-</script>
   
   
 </head>
 
 <body>
+
+<!-- TEXTO "Cotiza y pide" AL LADO del botón verde de Whaticket -->
+<div style="
+  position: fixed;
+  bottom: 28px;
+  left: 88px;
+  background: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 9998;
+  font-family: system-ui, Arial, sans-serif;
+  pointer-events: none;
+">
+  Cotiza y pide
+</div>
+  
   <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
