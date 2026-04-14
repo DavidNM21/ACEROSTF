@@ -258,3 +258,24 @@ a.iconwhatsapp {
     fill: #4169E1; /* Color al pasar el ratón */
   }
 
+
+
+<style>
+  /* 🔥 Esto elimina la línea blanca del lado derecho en móviles */
+  @media (max-width: 768px) {
+    html,
+    body {
+      overflow-x: hidden !important;     /* bloquea el desplazamiento horizontal */
+      width: 100% !important;
+      max-width: 100vw !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    /* Asegura que el fondo oscuro cubra todo (cambia el color si tu página usa otro) */
+    body {
+      background-color: #1a1a1a !important;   /* ← color oscuro de tu página */
+    }
+  }
+</style>
+
