@@ -1,8 +1,47 @@
 
+
+
+
+
+
+
+
+
+
 .TODO{width:20rem;}
 .FIERRO{width: 25rem;}
 .TOP-LOGO{width:11rem;}
 .aceroslaminasyperfiles{width:20rem;}
+
+
+<style>
+  @media (max-width: 768px) {
+    /* El iframe completo del widget (botón + ventana) */
+    #wtt-widget-iframe {
+      width: 100vw !important;
+      height: 100vh !important;
+      max-width: 100vw !important;
+      max-height: 100vh !important;
+      border-radius: 0 !important; /* opcional: quita bordes redondeados en full */
+    }
+
+    /* Cuando el chat está abierto */
+    #wtt-widget-iframe[data-open="true"] {
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      top: 0 !important;
+    }
+
+    /* Botón flotante más grande (cuando está cerrado) */
+    #wtt-widget-iframe:not([data-open="true"]) {
+      width: 85px !important;   /* botón más grande */
+      height: 85px !important;
+    }
+  }
+</style>
+
+
 
 
 
